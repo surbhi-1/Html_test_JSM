@@ -29,11 +29,10 @@ body {
 
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: #828A89;
-    font-size: 20px;
 }
 
 .notification-box {
@@ -173,7 +172,6 @@ body {
     padding: 15px;
     background-image: url("../Asset/images/image\ 2.png");
     background-color: #cccccc;
-    /* height: 400px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -336,10 +334,9 @@ body {
 }
 
 .box-f3 {
-    padding: 15px 0px 15px 18px;
+    padding: 15px;
     background-image: url("../Asset/images/image5.png");
     background-color: #cccccc;
-    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -349,10 +346,9 @@ body {
 }
 
 .box-f4 {
-    padding: 15px 0px 15px 18px;
+    padding: 15px;
     background-image: url("../Asset/images/image\ 1.png");
     background-color: #cccccc;
-    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -362,41 +358,40 @@ body {
 }
 
 .box-f5 {
+    padding: 15px;
     background-image: url("../Asset/images/image\ 3.png");
     background-color: #cccccc;
-    height: 256px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 12px;
 }
 
 .box-f6 {
+    padding: 15px;
     background-image: url("../Asset/images/image6.png");
     background-color: #cccccc;
-    height: 256px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
-    border-radius: 12px 12px 0px 0px;
-    /* top: 5px; */
+    border-radius: 12px;
+
 }
 
 .box-f7 {
+    padding: 15px;
     background-image: url("../Asset/images/image\ 4.png");
     background-color: #cccccc;
-    height: 256px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
-    border-radius: 12px 12px 0px 0px;
-    /* top: 5px; */
+    border-radius: 12px;
 }
 
 .header-mobile {
@@ -466,9 +461,9 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-    .box-manage-one {
+    /* .box-manage-one {
         width: 93px;
-    }
+    } */
 
     .background-image {
         height: 1027px;
@@ -656,10 +651,8 @@ body {
     }
 
     .profile-image {
-        border-radius: 8px;
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
         overflow: hidden;
         background-size: cover;
     }
@@ -682,10 +675,10 @@ body {
         width: 70%;
     }
 
-    .user-profile-image {
+    /* .user-profile-image {
         height: 30px;
         margin-left: 10px
-    }
+    } */
 
     .text-fd-heading-first {
         font-family: 'Times New Roman', Times, serif;
@@ -720,7 +713,7 @@ body {
     }
 
     .heading-name {
-
+        /* font-family: */
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
@@ -860,9 +853,8 @@ body {
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        line-height: 150%;
         color: #050305;
-        padding: 1rem 2rem;
+        padding: 1em 2rem;
     }
 
     .header-mobile {
@@ -870,7 +862,7 @@ body {
     }
 
     .header-right-icon {
-        padding: 1rem 2rem;
+        padding: 1em;
     }
 
     .header-right-icon img {
@@ -884,7 +876,7 @@ body {
         background: #EF423B;
         border: 1px solid rgba(255, 255, 255, 0.5);
         border-radius: 8px;
-        margin-left: 4.5rem;
+        margin-left: 4rem;
     }
 
     .notification-mobile-box img {
@@ -919,11 +911,11 @@ body {
 
 @media only screen and (max-width: 320px) {
     .header-right-icon {
-        padding: 1rem .5rem;
+        padding: 1rem .3rem;
     }
 
     .notification-mobile-box {
-        margin-left: 50px;
+        margin-left: 45px;
     }
 
     .box-right-heading-added {
@@ -936,9 +928,9 @@ body {
         line-height: 28px;
     }
 
-    .profile-image {
+    /* .profile-image {
         margin-top: 10px;
-    }
+    } */
 
     .text-bio-heading {
         font-size: 12px;
@@ -963,22 +955,31 @@ body {
     .text-bio-subtittle-thread {
         font-size: 14px;
     }
+
+    .heading-name {
+        margin-left: 10px;
+    }
+
+    .subtittle-name {
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
-    .profile-image {
+    /* .profile-image {
         height: 75px;
         width: 70px;
-    }
+        margin-top: 8px;
+    } */
 
     .Family-details-text {
         display: block;
         margin-left: 20px;
     }
 
-    .user-profile-image {
+    /* .user-profile-image {
         height: 30px;
-    }
+    } */
 
     .box-right-heading-added {
         margin-bottom: 82px;
