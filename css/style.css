@@ -135,6 +135,13 @@ body {
     border-radius: 12px;
 }
 
+.box-f2 {
+    /* padding: 15px 0px 1px 18px; */
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
 .user-profile-image {
     border-radius: 100px;
     width: 36px;
@@ -143,8 +150,6 @@ body {
     border: 2px solid rgba(121, 127, 133, 0.5);
 }
 
-
-.user-profile-image img {}
 
 .plus-circle-box {
     border-radius: 100px;
@@ -431,6 +436,9 @@ body {
     border-radius: 12px;
 }
 
+.box-right-heading-added-text {
+    margin-top: 8px;
+}
 
 
 .content-fixed {
@@ -497,6 +505,8 @@ body {
         margin-right: 8px;
         margin-bottom: 30px;
     }
+
+
 
     .box-f5 {
         height: 218px;
@@ -583,9 +593,9 @@ body {
     }
 
     .search-item-footer {
-        padding: 30px;
-        width: 84px;
-        height: 84px;
+        padding: 26px;
+        width: 75px;
+        height: 75px;
         background: #EF423B;
         border-radius: 50px;
         box-shadow: 5px 10px red;
@@ -603,6 +613,7 @@ body {
         line-height: 14px;
         text-align: center;
         color: #797F85;
+        top: 15px;
     }
 
     .footer-item-f {
@@ -615,6 +626,7 @@ body {
         line-height: 14px;
         text-align: center;
         color: #797F85;
+        top: 15px;
     }
 
 
@@ -781,9 +793,9 @@ body {
     }
 
     .heading-LP-text {
-
+        font-family: Arial, Helvetica, sans-serif;
         font-style: normal;
-        font-weight: 600;
+        font-weight: bold;
         font-size: 15px;
         line-height: 18px;
         text-transform: capitalize;
@@ -792,7 +804,7 @@ body {
 
     .subheading-LP-text {
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 14px;
         line-height: 16px;
         color: #EF423B;
@@ -809,7 +821,8 @@ body {
 
     .box-right-heading-added-text {
         width: 60px;
-        line-height: 25px;
+        line-height: 31px;
+        margin-top: 3px;
     }
 
     .Family-details-text {
@@ -828,10 +841,11 @@ body {
 
     .card-box {
         display: flex;
-        overflow: auto;
+        overflow-x: auto;
         flex-wrap: nowrap;
         padding: 10px 0px;
         background: white;
+        scrollbar-width: none;
     }
 
 
@@ -911,19 +925,23 @@ body {
     }
 
     .footer-button {
-        margin-top: 53px;
+        margin-top: 10px;
     }
 }
 
 @media screen and (max-width: 375px) {
+    .box-f1 {
+        height: 100px;
+    }
+
     .footer-button {
-        margin-top: 45px;
+        margin-top: 5px;
     }
 
     .search-item-footer {
-        padding: 26px;
-        width: 73px;
-        height: 75px;
+        padding: 20px;
+        width: 65px;
+        height: 65px;
         background: #EF423B;
         border-radius: 50px;
     }
@@ -956,20 +974,27 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-    .footer-button {
-        margin-top: 30px;
+    .footer-button img {
+        margin: 0px 0px 0px -15px;
+    }
+
+    .footer-item-f {
+        font-size: 10px;
+        top: 4px;
     }
 
     .search-item-footer {
-        padding: 20px;
-        width: 60px;
-        height: 60px;
+        padding: 15px;
+        width: 55px;
+        height: 55px;
         background: #EF423B;
         border-radius: 50px;
     }
 
     .footer-item {
-        right: 14px
+        right: 14px;
+        font-size: 10px;
+        top: 4px;
     }
 
     .header-right-icon {
@@ -991,7 +1016,8 @@ body {
 
     .box-right-heading-added-text {
         width: 60px;
-        line-height: 28px;
+        line-height: 31px;
+        margin-top: 6px;
     }
 
     .text-bio-heading {
