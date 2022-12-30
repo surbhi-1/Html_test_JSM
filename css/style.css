@@ -20,13 +20,11 @@ body {
     position: absolute;
 }
 
-
 .nav-item {
     padding: 0px 10px;
 }
 
 .nav-link {
-
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -60,7 +58,6 @@ body {
     right: 13px;
     top: 15px;
     color: #ced4da;
-
 }
 
 .form-control {
@@ -68,7 +65,6 @@ body {
     background: #FFFFFF;
     border: 1.5px solid #E1E1E1;
     border-radius: 8px;
-
 }
 
 .form-control:focus {
@@ -77,8 +73,6 @@ body {
     border: 1.5px solid #E1E1E1;
     border-radius: 8px;
 }
-
-
 
 .box {
     margin: 2rem 7rem;
@@ -109,7 +103,6 @@ body {
 }
 
 .profile-text-score {
-
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -122,7 +115,6 @@ body {
 
 .profile-subnumber {
     color: red;
-
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -149,7 +141,6 @@ body {
     background: #FFFFFF;
     border: 2px solid rgba(121, 127, 133, 0.5);
 }
-
 
 .plus-circle-box {
     border-radius: 100px;
@@ -209,7 +200,6 @@ body {
 }
 
 .text-fd-heading {
-
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -221,7 +211,6 @@ body {
 }
 
 .text-fd-subtittle {
-
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -289,8 +278,6 @@ body {
     font-size: 12px;
     border: none;
     color: #FFFFFF;
-
-
 }
 
 .text-bio-heading-thread {
@@ -347,8 +334,6 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
-
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -356,15 +341,12 @@ body {
     color: #050305;
     position: relative;
     bottom: 7px;
-
 }
 
 .text-bio-heading-second {
-
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -421,7 +403,6 @@ body {
     position: relative;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
-
 }
 
 .box-f7 {
@@ -439,7 +420,6 @@ body {
 .box-right-heading-added-text {
     margin-top: 8px;
 }
-
 
 .content-fixed {
     margin-top: 4rem;
@@ -462,7 +442,6 @@ body {
 }
 
 /* this is start media queries */
-
 @media only screen and (max-width: 1440px) {
     .background-image {
         height: 1200px;
@@ -472,15 +451,12 @@ body {
         height: 178vh;
     }
 
-
     .border-end {
         height: 45px;
     }
 }
 
-
 @media only screen and (max-width: 1024px) {
-
     .background-image {
         height: 1027px;
     }
@@ -505,8 +481,6 @@ body {
         margin-right: 8px;
         margin-bottom: 30px;
     }
-
-
 
     .box-f5 {
         height: 218px;
@@ -542,7 +516,6 @@ body {
     }
 }
 
-
 @media only screen and (max-width: 768px) {
     .box {
         height: 1364px;
@@ -553,7 +526,6 @@ body {
     .name-one {
         font-size: 12px;
     }
-
 }
 
 @media only screen and (max-width: 765px) {
@@ -564,7 +536,6 @@ body {
     .box {
         height: 2740px;
     }
-
 
     .box-f5 {
         border-radius: 12px;
@@ -578,7 +549,6 @@ body {
         border-radius: 12px;
     }
 }
-
 
 @media only screen and (max-width: 425px) {
     .name-one {
@@ -642,9 +612,7 @@ body {
         line-height: 14px;
         text-align: center;
         color: #797F85;
-
     }
-
 
     .header-hide-mobile-view {
         display: none;
@@ -716,7 +684,6 @@ body {
         left: 0;
         right: 0;
         z-index: 1000;
-
         background: #FFFFFF;
         box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
         padding: 10px;
@@ -777,7 +744,6 @@ body {
     }
 
     .text-fd-subtittle-first {
-
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -801,7 +767,6 @@ body {
     }
 
     .subtittle-name {
-
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
@@ -821,7 +786,6 @@ body {
     }
 
     .subheading-LP-text {
-
         font-style: normal;
         font-weight: 500;
         font-size: 13px;
@@ -854,7 +818,6 @@ body {
 
     .text-fd-subtittle {
         font-size: 12px;
-
     }
 
     .card-box {
@@ -865,7 +828,6 @@ body {
         background: white;
         scrollbar-width: none;
     }
-
 
     .background-image {
         background-color: white;
@@ -880,9 +842,7 @@ body {
         border-radius: initial;
     }
 
-
     .header-time {
-
         font-style: normal;
         font-weight: 600;
         font-size: 15px;
@@ -920,7 +880,6 @@ body {
     }
 
     .header-name {
-
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
@@ -943,25 +902,9 @@ body {
         padding-bottom: 10px;
     }
 
-    /* .footer-button {
-        margin-top: 10px;
-    } */
-
     .search-tab-icon {
         margin-left: 1rem !important;
     }
-
-    /* button .footer-item-f:active {
-        color: #EF423B;
-    } */
-
-    /* .footer-button img:hover {
-        background-image: url("../Asset/images/heart.png");
-        width: 20px;
-        height: 20px;
-        background: #df1a66;
-        transition: all 100ms cubic-bezier(0.61, 0.01, 0.43, 0.99);
-    } */
 
     .footer-button a:hover {
         color: #EF423B;
@@ -970,7 +913,6 @@ body {
     .parent-name-bio {
         margin: 30px 0px 0px 0px;
     }
-
 }
 
 @media screen and (max-width: 375px) {
@@ -981,11 +923,6 @@ body {
     .box-f1 {
         height: 100px;
     }
-
-    /* 
-    .footer-button {
-        margin-top: 5px;
-    } */
 
     .search-tab-icon {
         margin: 0px;
@@ -1017,25 +954,12 @@ body {
     .header-right-icon {
         margin-left: 0.4rem;
     }
-
-    /* .footer-item {
-        right: 8px
-    } */
-
-    /* .footer-item-f {
-        right: 15px;
-    } */
-
 }
 
 @media screen and (max-width: 320px) {
     .parent-name-bio {
         margin: 15px 10px 0px 0px;
     }
-
-    /* .footer-button img {
-        margin: 0px 0px 0px -7px;
-    } */
 
     .footer-item {
         font-size: 10px;
@@ -1049,17 +973,8 @@ body {
         border-radius: 50px;
     }
 
-    /* .footer-item {
-        right: 10px;
-        font-size: 10px;
-        top: 4px;
-    } */
-
     .header-right-icon {
         margin-left: 0.2rem;
-    }
-
-    .header-right-icon {
         padding: 1rem .3rem;
     }
 
