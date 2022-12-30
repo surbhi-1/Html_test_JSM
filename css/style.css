@@ -90,7 +90,7 @@ body {
 
 .progress-bar-parent {
     width: 100%;
-    height: 82px;
+    /* height: 82px; */
     background: #FFFFFF;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
@@ -159,7 +159,6 @@ body {
 }
 
 .box-right-heading-added {
-
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -170,6 +169,7 @@ body {
     background: #EF423B;
     box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.12);
     border-radius: 6px 0px 0px 6px;
+    border: none;
 }
 
 .box-history-card {
@@ -287,7 +287,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    /* line-height: 120%; */
+    border: none;
     color: #FFFFFF;
 
 
@@ -581,6 +581,34 @@ body {
 
 
 @media only screen and (max-width: 425px) {
+    .name-one {
+        font-size: 14px;
+    }
+
+    .text-bio-heading {
+        font-size: 11px;
+    }
+
+    .text-bio-subtittle {
+        font-size: 14px;
+    }
+
+    .text-bio-heading-second {
+        font-size: 11px;
+    }
+
+    .text-bio-subtittle-second {
+        font-size: 14px;
+    }
+
+    .text-bio-heading-thread {
+        font-size: 11px;
+    }
+
+    .text-bio-subtittle-thread {
+        font-size: 14px;
+    }
+
     .card-parent-box {
         margin-bottom: 20%;
     }
@@ -608,28 +636,13 @@ body {
 
     .footer-item {
         text-decoration: none;
-        position: relative;
-        right: 3px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 14px;
-        text-align: center;
-        top: 0.4rem;
-
-    }
-
-    .footer-item-f {
-        text-decoration: none;
-        position: relative;
-        right: 10px;
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
         line-height: 14px;
         text-align: center;
         color: #797F85;
-        top: 0.4rem;
+
     }
 
 
@@ -706,7 +719,6 @@ body {
 
         background: #FFFFFF;
         box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
-        /* border-radius: 30px 30px 0px 0px; */
         padding: 10px;
     }
 
@@ -755,7 +767,6 @@ body {
     }
 
     .text-fd-heading-first {
-        font-family: 'Times New Roman', Times, serif;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -780,10 +791,13 @@ body {
 
     .heading-name {
         font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 120%;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
         color: #050305;
+        max-width: 100%;
     }
 
     .subtittle-name {
@@ -796,22 +810,23 @@ body {
     }
 
     .heading-LP-text {
-        font-family: Arial, Helvetica, sans-serif;
         font-style: normal;
-        font-weight: bold;
-        font-size: 15px;
-        line-height: 18px;
-        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
         color: #050305;
+        max-width: 100%;
     }
 
     .subheading-LP-text {
+
         font-style: normal;
-        font-weight: 900;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 13px;
         line-height: 16px;
         color: #EF423B;
-        margin-left: auto;
     }
 
     .mobile-view-card {
@@ -834,7 +849,7 @@ body {
     }
 
     .text-fd-heading {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .text-fd-subtittle {
@@ -870,7 +885,7 @@ body {
 
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 15px;
         color: #050305;
         padding: 1em 2rem;
     }
@@ -890,8 +905,8 @@ body {
 
     .notification-mobile-box {
         display: flex;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         background: #EF423B;
         border: 1px solid rgba(255, 255, 255, 0.5);
         border-radius: 8px;
@@ -899,15 +914,16 @@ body {
     }
 
     .notification-mobile-box img {
-        width: 25px;
-        height: 25px;
+        width: 18px;
+        height: 18px;
+        margin: 1px;
     }
 
     .header-name {
 
         font-style: normal;
         font-weight: 600;
-        font-size: 21px;
+        font-size: 18px;
         line-height: 150%;
         text-transform: capitalize;
         color: #050305;
@@ -915,11 +931,11 @@ body {
     }
 
     .profile-text-score {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .profile-subnumber {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .progress-bar-parent {
@@ -927,30 +943,49 @@ body {
         padding-bottom: 10px;
     }
 
-    .footer-button {
+    /* .footer-button {
         margin-top: 10px;
-    }
+    } */
 
     .search-tab-icon {
         margin-left: 1rem !important;
     }
 
-    button .footer-item-f:active {
+    /* button .footer-item-f:active {
         color: #EF423B;
-        /* background-color: #47A11D; */
+    } */
+
+    /* .footer-button img:hover {
+        background-image: url("../Asset/images/heart.png");
+        width: 20px;
+        height: 20px;
+        background: #df1a66;
+        transition: all 100ms cubic-bezier(0.61, 0.01, 0.43, 0.99);
+    } */
+
+    .footer-button a:hover {
+        color: #EF423B;
     }
+
+    .parent-name-bio {
+        margin: 30px 0px 0px 0px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
-
+    .parent-name-bio {
+        margin: 23px 0px 0px 0px;
+    }
 
     .box-f1 {
         height: 100px;
     }
 
+    /* 
     .footer-button {
         margin-top: 5px;
-    }
+    } */
 
     .search-tab-icon {
         margin: 0px;
@@ -983,24 +1018,27 @@ body {
         margin-left: 0.4rem;
     }
 
-    .footer-item {
+    /* .footer-item {
         right: 8px
-    }
+    } */
 
-    .footer-item-f {
+    /* .footer-item-f {
         right: 15px;
-    }
+    } */
 
 }
 
 @media screen and (max-width: 320px) {
-    .footer-button img {
-        margin: 0px 0px 0px -7px;
+    .parent-name-bio {
+        margin: 15px 10px 0px 0px;
     }
 
-    .footer-item-f {
+    /* .footer-button img {
+        margin: 0px 0px 0px -7px;
+    } */
+
+    .footer-item {
         font-size: 10px;
-        top: 4px;
     }
 
     .search-item-footer {
@@ -1011,11 +1049,11 @@ body {
         border-radius: 50px;
     }
 
-    .footer-item {
+    /* .footer-item {
         right: 10px;
         font-size: 10px;
         top: 4px;
-    }
+    } */
 
     .header-right-icon {
         margin-left: 0.2rem;

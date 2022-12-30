@@ -66,8 +66,8 @@
              <h6 class="header-time">9:41</h6></div>
             <div class="col-4">
               <div class="d-flex header-right-icon">
-                <div class=""> <img src="./Asset/images/signal.png" alt="img" width="18"></div>
-                <div><img src="./Asset/images/wifi.png" alt="img" width="18"></div>
+                <div class=""> <img src="./Asset/images/signal.png" alt="img" width="16"></div>
+                <div><img src="./Asset/images/wifi.png" alt="img" width="16"></div>
                 <div><img src="./Asset/images/battery-loaded.png" alt="img" width="18"></i></div>
               </div>
             </div>
@@ -174,7 +174,7 @@
          <div class="pt-0 p-4 mobile-view-card">
           <div class="d-flex justify-content-between">
             <div class="col">
-             <h6 class="heading-LP-tex">Latest Profile</h6>
+             <h6 class="heading-LP-text">Latest Profile</h6>
             </div>
             <div class="col">
              <p class="subheading-LP-text text-end">See all</p>
@@ -188,8 +188,10 @@
                     <img src="./Asset/images/image 2.png" class="img-fluid rounded w-100 h-100" alt="img" class="profile-image" >
                   </div>
                   <div class="col-8">
-                    <h6 class="heading-name mt-3 text-truncate">Shreya Jain | 24 Yrs</h6>
-                    <p class="subtittle-name text-truncate">Digamber | Unmarried</p>
+                    <div class="parent-name-bio">
+                      <h6 class="heading-name text-truncate">Shreya Jain | 24 Yrs</h6>
+                      <p class="subtittle-name text-truncate">Digamber | Unmarried</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -436,8 +438,7 @@
                           <div class="col-4 border-end box-manage-one text-truncate">
                               <p class="text-bio-heading">Profession</p>
                               <h5 class="text-bio-subtittle">Engineers</h5>
-                          </div>
-                        
+                          </div>                      
                           <div class="col-3 flex-wrap border-end box-manage-one text-truncate">
                             <p class="text-bio-heading-second">Manglik</p>
                             <h5 class="text-bio-subtittle-second">Anshik</h5>
@@ -463,36 +464,34 @@
     <nav class="footer-box">
       <div class="d-flex nav nav-tabs" id="nav-tab" role="tablist">
           <div class="col-2">
-          <button class="nav-link w-100 footer-button" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-           <img src="./Asset/images/home.png" alt="img" width="20">
-            <a class="footer-item active " href="#" style="color: #EF423B;">Home</a>
-          </button>
+            <button class="nav-link w-100 footer-button border-0 m-0 p-0 mt-2 active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+              <a class="footer-item active"> 
+                <h3><i class="bi bi-house-door-fill"></i></h3>Home</a>
+            </button>
           </div>
           <div class="col-2">
-            <button class="nav-link w-100 footer-button" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-              <img src="./Asset/images/heart.png" alt="img" width="20">
-              <a class="footer-item-f">Favourite</a>
+            <button class="nav-link w-100 footer-button border-0 m-0 p-0 mt-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+              <a class="footer-item"> 
+                <h3><i class="bi bi-heart"></i></h3>Favourite</a>
             </button>
             </div>
             <div class="col-4">
-              <button class="nav-link w-100 ms-1 search-tab-icon" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+              <button class="nav-link w-100 ms-1 search-tab-icon border-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
                 <div class="search-item-footer">
                   <img src="./Asset/images/search.png" alt="img" width="20">
                 </div>
               </button>
               </div>
               <div class="col-2">
-                <button class="nav-link w-100 footer-button" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-                  <img src="./Asset/images/mail.png" alt="img" width="20">
-                  <a class="footer-item">Interest</a>
+                <button class="nav-link w-100 footer-button border-0 m-0 p-0 mt-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                  <a class="footer-item"> 
+                    <h3><i class="bi bi-envelope"></i></h3>Interest</a>
                 </button>
                 </div>
                 <div class="col-2">
-                  <button class="nav-link w-100 footer-button" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-                    <img src="./Asset/images/user.png" alt="img" width="20">
-                    <div class="">
-                      <a class="footer-item ">Profile</a>
-                    </div>
+                  <button class="nav-link w-100 footer-button border-0 m-0 p-0 mt-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                    <a class="footer-item"> 
+                      <h3><i class="bi bi-person"></i></h3>Profile</a>
                   </button>
                   </div>
    
