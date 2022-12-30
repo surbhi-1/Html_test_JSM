@@ -581,6 +581,10 @@ body {
 
 
 @media only screen and (max-width: 425px) {
+    .card-parent-box {
+        margin-bottom: 20%;
+    }
+
     .footer-box {
         padding: 0px 10px;
         isolation: isolate;
@@ -593,17 +597,16 @@ body {
     }
 
     .search-item-footer {
-        padding: 26px;
-        width: 75px;
-        height: 75px;
+        padding: 24px;
+        width: 70px;
+        height: 70px;
         background: #EF423B;
         border-radius: 50px;
         box-shadow: 5px 10px red;
-        box-shadow: 0px 0px 0px 10px #bbb8b8, 0px 0px 0px 20px rgb(255, 255, 255);
+        box-shadow: 0px 0px 0px 8px #dfdede, 0px 0px 0px 16px rgb(255, 255, 255);
     }
 
     .footer-item {
-        font-size: 12px;
         text-decoration: none;
         position: relative;
         right: 3px;
@@ -612,8 +615,8 @@ body {
         font-size: 12px;
         line-height: 14px;
         text-align: center;
-        color: #797F85;
-        top: 15px;
+        top: 0.4rem;
+
     }
 
     .footer-item-f {
@@ -626,7 +629,7 @@ body {
         line-height: 14px;
         text-align: center;
         color: #797F85;
-        top: 15px;
+        top: 0.4rem;
     }
 
 
@@ -927,9 +930,20 @@ body {
     .footer-button {
         margin-top: 10px;
     }
+
+    .search-tab-icon {
+        margin-left: 1rem !important;
+    }
+
+    button .footer-item-f:active {
+        color: #EF423B;
+        /* background-color: #47A11D; */
+    }
 }
 
 @media screen and (max-width: 375px) {
+
+
     .box-f1 {
         height: 100px;
     }
@@ -938,9 +952,15 @@ body {
         margin-top: 5px;
     }
 
+    .search-tab-icon {
+        margin: 0px;
+        padding: 0px;
+    }
+
     .search-item-footer {
         padding: 20px;
         width: 65px;
+        margin-left: 0.5em;
         height: 65px;
         background: #EF423B;
         border-radius: 50px;
@@ -975,7 +995,7 @@ body {
 
 @media screen and (max-width: 320px) {
     .footer-button img {
-        margin: 0px 0px 0px -15px;
+        margin: 0px 0px 0px -7px;
     }
 
     .footer-item-f {
@@ -992,7 +1012,7 @@ body {
     }
 
     .footer-item {
-        right: 14px;
+        right: 10px;
         font-size: 10px;
         top: 4px;
     }
